@@ -1,10 +1,16 @@
 package day2;
 
+import java.util.Scanner;
+
 public class RevFOR {
 	public static void main(String[] args)
 	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a number");
+		int num = sc.nextInt();
+		
 	int rev=0;
-	int num=46;
+	
 	
 	for(int i=num;i>0;i=i/10)
 	{			

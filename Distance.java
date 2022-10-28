@@ -11,8 +11,9 @@ public class Distance {
 		int y= sc.nextInt();
 
 		double dis;
-		dis=sqrt(x*x+y*y);
+		dis=Math.sqrt(x*x+y*y);
 		System.out.println("distance from origin is : "+dis);
+
 		
 
 	}

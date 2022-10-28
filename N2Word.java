@@ -8,6 +8,7 @@ public class N2Word {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("enter number");
 		int option = sc.nextInt();
+		
 		if(option==0)
 		{System.out.println("zero");}
 		else if(option==1)

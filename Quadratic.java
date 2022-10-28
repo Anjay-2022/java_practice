@@ -11,16 +11,11 @@ public class Quadratic {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		
 		float delta=b*b-4*a*c;
-		System.out.println(delta);
-		
-		float x1 = (-b + sqrt(delta))/(2*a);
-		float x2 = (-b - sqrt(delta))/(2*a);
-		
+		double x1 = (-b + Math.sqrt(delta))/(2*a);
+		double x2 = (-b - Math.sqrt(delta))/(2*a);
 		System.out.println(+x1);
 		System.out.println(+x2);
-
 	}
 
 	private static int sqrt(float delta) {
