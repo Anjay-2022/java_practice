@@ -31,7 +31,9 @@ public class ArrayPrime {
 					count++;
 				}
 			}
-			if (count ==0) {
+			if (arr[i] == 1) {
+				continue;
+			} else if (count ==0) {
 				System.out.println(arr[i]);
 			}
 		}
